@@ -22,7 +22,16 @@ def merge_sort(data) -> None:
         data[k] = right[j]
         j += 1
       k += 1
-  return data
+  while i < len(left):
+      data[k] = left[i]
+      i += 1
+      k += 1
+
+    while j < len(right):
+       data[k]=right[j]
+       j += 1
+       k += 1
+
 
 
 # Do not change the following code
