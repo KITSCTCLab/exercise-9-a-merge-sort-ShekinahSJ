@@ -2,6 +2,8 @@ from typing import List
 
 def merge_sort(data) -> None:
   # Write code here
+  l=data.length
+  n=l/2
   return data
 
 
